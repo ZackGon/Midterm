@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    </head>
+    <body>
+        <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+        <h1 id = "title">Login System</h1>
+        <form>
+            <div class = "container">
+                <label>REGISTER</label>
+            </br>
+                <label>Firstname</label>
+                <input type = "text" placeholder="Enter Firstname" name = "firstname" required>
+            </br>
+                <label>Lastname</label>
+                <input type = "text" placeholder="Enter Lastname" name = "lastname" required>
+            </br>
+                <label>Username</label>
+                <input type = "text" placeholder="Enter Username" name = "username" required>
+            </br>
+                <label>Password</label>
+                <input type = "password" placeholder="Enter Password" name = "password" required>
+                
+            </br>
+            </br>
+            </br>
+            <a href = "/"><button id = "registerBtn" type="submit">Register</button></a>
+            <a href = "/"><button id = "registerBtn" type="button">Go Back</button></a>
+            </div>
+        </form>
+    </body>
+</html>
